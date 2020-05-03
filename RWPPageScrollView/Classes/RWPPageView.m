@@ -12,7 +12,7 @@
 
 #import "Masonry.h"
 
-#import "SDWebImage.h"
+#import "UIImageView+WebCache.h"
 
 
 @interface RWPPageView ()
