@@ -28,6 +28,8 @@
 
 @property (strong, nonatomic) RWPPageView *pageViewC;
 
+@property (strong, nonatomic) NSTimer *timer;
+
 @end
 
 
@@ -93,7 +95,8 @@
     }];
     
     [RACObserve(self, autoScrollTimeInterval) subscribeNext:^(id  _Nullable x) {
-        
+        @strongify(self)
+        [self resetTimer];
     }];
     
     [RACObserve(self, edgeInsets) subscribeNext:^(id  _Nullable x) {
@@ -196,6 +199,18 @@
     [self.scrollView setContentOffset:p animated:YES];
 }
 
+- (void)resetTimer {
+    if (self.timer) {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+    
+    if (self.autoScrollTimeInterval >= 0.5) {
+        self.timer = [NSTimer timerWithTimeInterval:self.autoScrollTimeInterval target:self selector:@selector(nextPage) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
+    }
+}
+
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
@@ -224,6 +239,10 @@
             self.scrollView.contentOffset = offset;
         }
     }
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    [self resetTimer];
 }
 
 #pragma mark - getter

@@ -38,6 +38,7 @@
     [NSURL URLWithString:@"http://0.image.al.okbuycdn.com/org/static/8f05b91b98c41e7035d11a0125c9a393.jpg"],
     [NSURL URLWithString:@"http://0.image.al.okbuycdn.com/org/static/9625e86b00cbaf90410d4656c8f0bbf1.jpg"]
     ];
+    self.scrollPageView.autoScrollTimeInterval = 3;
     
     @weakify(self)
     [RACObserve(self.scrollPageView, scrollAtIndex) subscribeNext:^(id  _Nullable x) {

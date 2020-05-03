@@ -14,7 +14,7 @@
 /// 当前滑动到了第几页
 @property (assign, nonatomic) NSInteger scrollAtIndex;
 
-/// 自动滑动的间隔时间，0表示不自动滑动
+/// 自动滑动的间隔时间，小于0.5表示不自动滑动
 @property (assign, nonatomic) NSTimeInterval autoScrollTimeInterval;
 
 /// 内容的上下左右边距
