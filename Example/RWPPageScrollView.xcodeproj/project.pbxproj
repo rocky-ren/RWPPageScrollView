@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0033134E245DD0D9004B1DD4 /* RWPPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0033134D245DD0D9004B1DD4 /* RWPPageScrollView.m */; };
-		00331351245DD7AD004B1DD4 /* RWPPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00331350245DD7AD004B1DD4 /* RWPPageView.m */; };
-		00331354245E9961004B1DD4 /* RWPPageScrollView+PageContol.m in Sources */ = {isa = PBXBuildFile; fileRef = 00331353245E9961004B1DD4 /* RWPPageScrollView+PageContol.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RWPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RWPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RWPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RWPViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -40,12 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0033134C245DD0D9004B1DD4 /* RWPPageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPPageScrollView.h; sourceTree = "<group>"; };
-		0033134D245DD0D9004B1DD4 /* RWPPageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPPageScrollView.m; sourceTree = "<group>"; };
-		0033134F245DD7AD004B1DD4 /* RWPPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPPageView.h; sourceTree = "<group>"; };
-		00331350245DD7AD004B1DD4 /* RWPPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPPageView.m; sourceTree = "<group>"; };
-		00331352245E9961004B1DD4 /* RWPPageScrollView+PageContol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWPPageScrollView+PageContol.h"; sourceTree = "<group>"; };
-		00331353245E9961004B1DD4 /* RWPPageScrollView+PageContol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RWPPageScrollView+PageContol.m"; sourceTree = "<group>"; };
 		32D64E616B39F9BF62753D49 /* Pods-RWPPageScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPPageScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-RWPPageScrollView_Tests/Pods-RWPPageScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36D413302B7262DA0CE5DA8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B73798D56B4FA5339E958C0 /* RWPPageScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RWPPageScrollView.podspec; path = ../RWPPageScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -59,8 +49,6 @@
 		6003F59B195388D20070C39A /* RWPPageScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWPPageScrollView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RWPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RWPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RWPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RWPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWPViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RWPPageScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPPageScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -107,12 +95,6 @@
 		0033134B245DD0C5004B1DD4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0033134F245DD7AD004B1DD4 /* RWPPageView.h */,
-				00331350245DD7AD004B1DD4 /* RWPPageView.m */,
-				0033134C245DD0D9004B1DD4 /* RWPPageScrollView.h */,
-				0033134D245DD0D9004B1DD4 /* RWPPageScrollView.m */,
-				00331352245E9961004B1DD4 /* RWPPageScrollView+PageContol.h */,
-				00331353245E9961004B1DD4 /* RWPPageScrollView+PageContol.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -158,8 +140,6 @@
 				6003F59C195388D20070C39A /* RWPAppDelegate.h */,
 				6003F59D195388D20070C39A /* RWPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RWPViewController.h */,
-				6003F5A6195388D20070C39A /* RWPViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -371,11 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00331354245E9961004B1DD4 /* RWPPageScrollView+PageContol.m in Sources */,
 				6003F59E195388D20070C39A /* RWPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RWPViewController.m in Sources */,
-				00331351245DD7AD004B1DD4 /* RWPPageView.m in Sources */,
-				0033134E245DD0D9004B1DD4 /* RWPPageScrollView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
