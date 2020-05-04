@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rwpnyn@163.com/RWPPageScrollView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/rocky-ren/RWPPageScrollView.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rwpnyn@163.com' => 'rwpnyn@163.com' }
-  s.source           = { :git => 'https://github.com/rwpnyn@163.com/RWPPageScrollView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rocky-ren/RWPPageScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,8 +36,9 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'ReactiveObjC'
   s.dependency 'SDWebImage'
   s.dependency 'Masonry'
+  
 end
